@@ -10,14 +10,17 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">Stefan Bastajić</div>
+      <div class="logo" data-translate="name">Stefan Bastajić</div>
       <div>
         <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about" data-translate="about">About</a></li>
+          <li><a href="#experience" data-translate="experience">Experience</a></li>
+          <li><a href="#projects" data-translate="projects">Projects</a></li>
+          <li><a href="#contact" data-translate="contact">Contact</a></li>
         </ul>
+      </div>
+      <div class="language-selector">
+        <button onclick="changeLanguage()" data-translate="lang">СРП</button>
       </div>
     </nav>
     <nav id="hamburger-nav">
@@ -41,9 +44,9 @@
         <img src="./assets/profile-pic.png" alt="Stefan Bastajić profile picture" />
       </div>
       <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Stefan Bastajić</h1>
-        <p class="section__text__p2">Software Engineer</p>
+        <p class="section__text__p1" data-translate="hello">Hello, I'm</p>
+        <h1 class="title" data-translate="name">Stefan Bastajić</h1>
+        <p class="section__text__p2" data-translate="software_engineer">Software Engineer</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
@@ -51,7 +54,7 @@
           >
             Download CV
           </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          <button class="btn btn-color-1" onclick="location.href='./#contact'" data-translate="contact_info">
             Contact Info
           </button>
         </div>
@@ -72,8 +75,8 @@
       </div>
     </section>
     <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
+      <p class="section__text__p1" data-translate="get_to_know">Get To Know More</p>
+      <h1 class="title" data-translate="about">About Me</h1>
       <div class="section-container">
         <div class="section__pic-container">
           <img
@@ -90,8 +93,8 @@
                 alt="Experience icon"
                 class="icon"
               />
-              <h3>Experience</h3>
-              <p>4+ years <br />Software Engineering</p>
+              <h3 data-translate="experience">Experience</h3>
+              <p data-translate="years_of_experience">4+ years <br />Software Engineering</p>
             </div>
             <div class="details-container">
               <img
@@ -366,5 +369,6 @@
       </nav>
     </footer>
     <script src="script.js"></script>
+    <script src="translate.js"></script>
   </body>
 </html>
