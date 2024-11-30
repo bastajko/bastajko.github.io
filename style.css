@@ -59,6 +59,7 @@ a:hover {
 }
 
 .language-selector button {
+  font-family: "Comfortaa", sans-serif;
   background: none;
   border: none;
   font-size: 1.5rem;
@@ -120,7 +121,7 @@ a:hover {
   transition: all 0.3 ease-in-out;
 }
 
-.menu-links a, .menu-links .language-selector button {
+.menu-links a, .menu-links .language-selector-mobile button {
   display: block;
   padding: 10px;
   text-align: center;
