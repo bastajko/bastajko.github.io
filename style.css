@@ -87,6 +87,11 @@ a:hover {
 
 #hamburger-nav {
   display: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  align-items: center;
+  gap: 1rem;
 }
 
 .language-selector-mobile button {
@@ -259,6 +264,7 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
+  font-family: "Comfortaa";
   border: rgb(53, 53, 53) 0.1rem solid;
 }
 

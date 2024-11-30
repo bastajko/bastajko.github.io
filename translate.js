@@ -29,7 +29,7 @@ const translations = {
       "name": "Стефан Бастајић",
       "about": "О мени",
       "experience": "Искуство",
-      "years_of_experience": "4+ година <br />Софтверског Инжењерства",
+      "years_of_experience": "4+ година <br />рада у струци",
       "projects": "Пројекти",
       "contact": "Контакт",
       "hello": "Здраво, ја сам",
