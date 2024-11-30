@@ -89,6 +89,17 @@ a:hover {
   display: none;
 }
 
+.language-selector-mobile button {
+  font-family: "Comfortaa", sans-serif;
+  display: block;
+  padding: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: none;
+}
+
 .hamburger-menu {
   position: relative;
   display: inline-block;
@@ -129,15 +140,6 @@ a:hover {
   color: black;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
-}
-
-.language-selector-mobile button {
-  font-family: "Comfortaa", sans-serif;
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  color: black;
-  text-decoration: none;
 }
 
 .menu-links li {
