@@ -36,6 +36,9 @@
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li class="language-selector">
+            <button onclick="changeLanguage()" data-translate="lang">СРП</button>
+          </li>
         </div>
       </div>
     </nav>
@@ -50,6 +53,7 @@
         <div class="btn-container">
           <button
             class="btn btn-color-2"
+            data-translate="download_cv"
             onclick="window.open('./assets/resume-example.pdf')"
           >
             Download CV
@@ -102,8 +106,8 @@
                 alt="Education icon"
                 class="icon"
               />
-              <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+              <h3 data-translate="education">Education</h3>
+              <p data-translate="degree">B.Sc. and M.Sc. in Computer and Electrical Engineering</p>
             </div>
           </div>
           <div class="text-container">
@@ -127,11 +131,11 @@
     </section>
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
+      <h1 class="title" data-translate="experience">Experience</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Backend Development</h2>
+            <h2 class="experience-sub-title" data-translate="backend">Backend Development</h2>
             <div class="article-container">
               <article>
                 <img
@@ -191,7 +195,7 @@
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title" data-translate="frontend">Frontend Development</h2>
             <div class="article-container">
               <article>
                 <img

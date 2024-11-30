@@ -120,7 +120,7 @@ a:hover {
   transition: all 0.3 ease-in-out;
 }
 
-.menu-links a {
+.menu-links a, .menu-links .language-selector button {
   display: block;
   padding: 10px;
   text-align: center;
