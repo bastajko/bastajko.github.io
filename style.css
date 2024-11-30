@@ -121,7 +121,7 @@ a:hover {
   transition: all 0.3 ease-in-out;
 }
 
-.menu-links a, .menu-links .language-selector-mobile button {
+.menu-links a{
   display: block;
   padding: 10px;
   text-align: center;
@@ -129,6 +129,15 @@ a:hover {
   color: black;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
+}
+
+.language-selector-mobile button {
+  font-family: "Comfortaa", sans-serif;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: none;
 }
 
 .menu-links li {
