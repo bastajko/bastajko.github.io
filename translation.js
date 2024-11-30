@@ -22,7 +22,9 @@ const translations = {
       "browse_my_recent": "Browse My Recent",
       "degree": "B.Sc. and M.Sc. in Computer and Electrical Engineering",
       "backend": "Backend",
-      "frontend": "Frontend"
+      "frontend": "Frontend",
+      "contact_me": "Contact me",
+      "get_in_touch": "Get in touch"
     },
     sr: {
       "lang": "ENG",
@@ -41,11 +43,13 @@ const translations = {
       "contact_info": "Контакт информације",
       "get_to_know": "Сазнајте више",
       "education": "Образовање",
-      "explore_my": "Истражите моје",
-      "browse_my_recent": "Прегледајте моје најновије",
+      "explore_my": "Увид у моје",
+      "browse_my_recent": "Моји скорашњи",
       "degree": "Дипл. и мастер инж. Електротехнике и рачунарства",
       "backend": "Бекенд",
-      "frontend": "Фронтенд"
+      "frontend": "Фронтенд",
+      "contact_me": "Контакт",
+      "get_in_touch": "Јавите се, ово је мој"
     }
   };
   
