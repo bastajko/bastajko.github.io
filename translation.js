@@ -6,7 +6,7 @@ const translations = {
       "name": "Stefan Bastajić",
       "about": "About",
       "experience": "Experience",
-      "years_of_experience": "4+ years <br />Software Engineering",
+      "years_of_experience": "+ years <br />Software Engineering",
       "projects": "Projects",
       "contact": "Contact",
       "hello": "Hello, I'm",
@@ -31,7 +31,7 @@ const translations = {
       "name": "Стефан Бастајић",
       "about": "О мени",
       "experience": "Искуство",
-      "years_of_experience": "4+ година <br />рада у струци",
+      "years_of_experience": "+ година <br />рада у струци",
       "projects": "Пројекти",
       "contact": "Контакт",
       "hello": "Здраво, ја сам",
@@ -65,4 +65,6 @@ const translations = {
           el.innerHTML = translation;
         }
       });
+    
+      calculateYearsOfExperience();
   }
