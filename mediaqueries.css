@@ -13,6 +13,9 @@
 }
 
 @media screen and (max-width: 1200px) {
+  #profile {
+    padding-top: 90px;
+  }
   #desktop-nav {
     display: none;
   }
