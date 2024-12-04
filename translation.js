@@ -24,7 +24,10 @@ const translations = {
       "backend": "Backend",
       "frontend": "Frontend",
       "contact_me": "Contact me",
-      "get_in_touch": "Get in touch"
+      "get_in_touch": "Get in touch",
+      "basic": "Basic",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
     },
     sr: {
       "lang": "ENG",
@@ -49,7 +52,10 @@ const translations = {
       "backend": "Бекенд",
       "frontend": "Фронтенд",
       "contact_me": "Контакт",
-      "get_in_touch": "Јавите се, ово је мој"
+      "get_in_touch": "Јавите се, ово је мој",
+      "basic": "Основно",
+      "intermediate": "Средње",
+      "advanced": "Напредно"
     }
   };
   
