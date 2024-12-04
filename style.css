@@ -319,16 +319,6 @@ section {
   flex-wrap: wrap;
 }
 
-.about-containers-projects {
-  gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  display: flex;
-  flex-wrap: wrap; 
-  justify-content: center;
-  align-items: center;
-}
-
 .about-details-container {
   justify-content: center;
   flex-direction: column;
@@ -352,16 +342,6 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
-  border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
-  text-align: center;
-}
-
-.details-container-projects {
-  flex: 0 1 calc(25% - 2rem); /* Each item takes up 25% minus the gap */
-  padding: 1.5rem;
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;

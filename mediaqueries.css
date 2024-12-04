@@ -3,8 +3,7 @@
     height: 83vh;
     margin-bottom: 6rem;
   }
-  .about-containers,
-  .about-containers-projects {
+  .about-containers {
     flex-wrap: wrap;
   }
   #contact,
@@ -15,7 +14,7 @@
 
 @media screen and (max-width: 1200px) {
   #profile {
-    padding-top: 90px;
+    padding-top: 150px;
   }
   #desktop-nav {
     display: none;
@@ -46,8 +45,7 @@
     height: 275px;
     margin: 0 auto 2rem;
   }
-  .about-containers,
-  .about-containers-projects {
+  .about-containers {
     margin-top: 0;
   }
 }
@@ -69,7 +67,6 @@
     margin-bottom: 2rem;
   }
   .about-containers,
-  .about-containers-projects,
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
