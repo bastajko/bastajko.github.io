@@ -28,7 +28,12 @@ const translations = {
       "basic": "Basic",
       "intermediate": "Intermediate",
       "advanced": "Advanced",
-      "tools": "Tools"
+      "tools": "Tools",
+      "portal": "Portal",
+      "about_project": "About",
+      "credits": "Credits",
+      "trailer": "Trailer",
+      "news": "News"
     },
     sr: {
       "lang": "ENG",
@@ -57,7 +62,12 @@ const translations = {
       "basic": "Основно",
       "intermediate": "Средње",
       "advanced": "Напредно",
-      "tools": "Алати"
+      "tools": "Алати",
+      "portal": "Портал",
+      "about_project": "О пројекту",
+      "credits": "Заслуге",
+      "trailer": "О пројекту",
+      "news": "Најаве"
     }
   };
   
