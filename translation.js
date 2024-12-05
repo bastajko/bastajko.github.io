@@ -27,7 +27,8 @@ const translations = {
       "get_in_touch": "Get in touch",
       "basic": "Basic",
       "intermediate": "Intermediate",
-      "advanced": "Advanced"
+      "advanced": "Advanced",
+      "tools": "Tools"
     },
     sr: {
       "lang": "ENG",
@@ -55,7 +56,8 @@ const translations = {
       "get_in_touch": "Јавите се, ово је мој",
       "basic": "Основно",
       "intermediate": "Средње",
-      "advanced": "Напредно"
+      "advanced": "Напредно",
+      "tools": "Алати"
     }
   };
   
