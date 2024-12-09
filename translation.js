@@ -33,7 +33,33 @@ const translations = {
       "about_project": "About",
       "credits": "Credits",
       "trailer": "Trailer",
-      "news": "News"
+      "news": "News",
+      "about_text": `
+                    <p>
+                      I’m a software engineer with a background 
+                      in Computer and Electrical Engineering, based in Belgrade, Serbia. 
+                      In my career, I've been tackling real-world challenges 
+                      by building scalable and efficient systems.
+                    </p>
+                    <br />
+                    <p>
+                      I specialize in backend and infrastructure, 
+                      with significant experience in Azure, C#, .NET, and SQL. 
+                      Over the years, I’ve contributed to diverse projects—from 
+                      enhancing the Compliance Manager platform for Microsoft 
+                      to developing game tools and porting games at Ubisoft.
+                    </p>
+                    <br />
+                    <p>
+                      Beyond my professional life, I’m passionate about GIS solutions, 
+                      history, and exploring construction forums. As a father, chess enthusiast, 
+                      and lifelong learner, I value balance, strategy, and curiosity in everything I do.
+                    </p>
+                    <br />
+                    <p>
+                      Let’s connect and build something meaningful together.
+                    </p>
+                    `
     },
     sr: {
       "lang": "ENG",
@@ -67,7 +93,31 @@ const translations = {
       "about_project": "О пројекту",
       "credits": "Заслуге",
       "trailer": "О пројекту",
-      "news": "Најаве"
+      "news": "Најаве",
+      "about_text": `
+                    <p>
+                      Ја сам софтверски инжењер из Београда, са дипломом Електротехничког факултета. 
+                      Стварам скалабилна и ефикасна решења која решавају конкретне изазове.
+                    </p>
+                    <br />
+                    <p>
+                      Специјализован сам за бекенд и инфраструктуру, 
+                      са значајним искуством у Azure-у, C#-у, .NET-у и SQL-у.
+                      У досадашњој каријери радио сам на разноврсним пројектима — 
+                      од унапређења Compliance Manager решења за Microsoft 
+                      до развоја алата за игре и портовања игара за Ubisoft.
+                    </p>
+                    <br />
+                    <p>
+                      Поред посла, интересују ме ГИС решења, историја и грађевински форуми.
+                      Као отац, љубитељ шаха и вечити ученик, тежим равнотежи, 
+                      стратегији и радозналости у свему што радим.
+                    </p>
+                    <br />
+                    <p>
+                      Јавите се да заједно стварамо нешто значајно.
+                    </p>
+                    `
     }
   };
   
