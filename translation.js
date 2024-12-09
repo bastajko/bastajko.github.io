@@ -56,10 +56,6 @@ const translations = {
                       history, and exploring construction forums. As a father, chess enthusiast, 
                       and lifelong learner, I value balance, strategy, and curiosity in everything I do.
                     </p>
-                    <br />
-                    <p>
-                      Let’s connect and build something meaningful together.
-                    </p>
                     `
     },
     sr: {
@@ -116,9 +112,6 @@ const translations = {
                       стратегији и радозналости у свему што радим.
                     </p>
                     <br />
-                    <p>
-                      Јавите се да заједно стварамо нешто значајно.
-                    </p>
                     `
     }
   };
