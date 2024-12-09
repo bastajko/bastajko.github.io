@@ -192,11 +192,16 @@ a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 4vh;
-  height: 96vh;
+  height: auto;
   margin: 0 10rem;
   box-sizing: border-box;
-  min-height: fit-content;
+  min-height: 100vh;
+  padding: 20px 0;
+  scroll-margin-top: 70px;
+}
+
+section + section {
+  margin-top: 50px;
 }
 
 .section-container {
